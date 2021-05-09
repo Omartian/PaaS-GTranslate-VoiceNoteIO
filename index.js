@@ -22,7 +22,7 @@ app.post('/translate', async (req, res) => {
 })
 
 app.get('/', (req, res) => {
-  res.send('PaaS para el servicio de Speech-to-text de la aplicación VoiceNoteIO')
+  res.send('PaaS para el servicio de traducción de la aplicación VoiceNoteIO')
 })
 
 app.listen(port, () => {
